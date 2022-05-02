@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(216, 188, 189);
+}
+
+.tarif {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarif .tarif-baslik span {
+    text-decoration: underline;
+    margin-right: 1rem;
+
+}
+
+.tarif .tarif-baslik strong {
+    color: brown;
+}
+
+.tarif .tarif-detay {
+    margin-top: 2rem;
+}
+
+.tarif-detay .tarif-detay-baslik {
+    background-color: brown;
+    color: beige;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 0, 25rem;
+    border-radius: 0, 5rem;
+    width: max-content;
+}
+
+.afiyet-olsun {
+    text-align: right;
+    font-family: monospace;
+    font-size: 1.25rem;
+    width: 70%;
+}
